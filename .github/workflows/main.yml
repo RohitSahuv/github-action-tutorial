@@ -9,6 +9,9 @@ jobs:
       
       - name: Run with sample actions
         run: echo "this work flow run successfully with this particuler action"
+
+      - name: Simulation error
+        run: echo "error taken place"
       
      
       
