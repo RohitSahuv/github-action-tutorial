@@ -2,7 +2,7 @@ name: First-workflow
 on: push
 jobs: 
   build:
-     run-ons: ubantu-latest
+     runs-ons: ubantu-latest
 
      steps: 
       - uses: actions/checkout@v4
