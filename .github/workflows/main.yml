@@ -1,0 +1,13 @@
+name: First-workflow
+on: push
+jobs: 
+  build:
+     run-ons: ubantu-latest
+
+     steps: 
+      - uses: actions/checkout@v4
+      - name: Run with sample actions
+        run : echo "this work flow run successfully with this particuler action"
+      
+     
+      
